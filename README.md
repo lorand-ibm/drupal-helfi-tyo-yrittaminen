@@ -1,4 +1,4 @@
-# City of Helsinki - KASKO Drupal 9 project
+# City of Helsinki - ELO Drupal 9 project
 
 ## Environments
 
