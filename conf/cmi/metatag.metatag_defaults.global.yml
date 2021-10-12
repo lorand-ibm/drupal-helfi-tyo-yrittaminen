@@ -1,0 +1,15 @@
+uuid: 87dbb569-ae10-4565-b02c-0526f402a1ae
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  canonical_url: '[current-page:url]'
+  title: '[current-page:title] | [site:page-title-suffix]'
+  image_src: '[site:base-url]/themes/custom/hdbt/src/images/og-global.png'
+  twitter_cards_page_url: '[current-page:url]'
+  twitter_cards_title: '[current-page:title] | [site:page-title-suffix]'
+  twitter_cards_type: summary_large_image

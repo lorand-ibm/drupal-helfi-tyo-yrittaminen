@@ -1,0 +1,20 @@
+uuid: ea6fcb44-0852-4024-a6b5-9f60692ba3db
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'display eu cookie compliance popup'
+  - 'view media'
+  - 'view media'
+  - 'access content'
+  - 'use text format full_html'
+  - 'use text format minimal'
+  - 'view remote entities'
+  - 'display eu cookie compliance popup'
