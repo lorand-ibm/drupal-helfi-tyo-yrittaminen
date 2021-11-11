@@ -87,6 +87,7 @@ module:
   token: 0
   token_filter: 0
   toolbar: 0
+  translatable_menu_link_uri: 0
   twig_tweak: 0
   update: 0
   update_helper: 0
@@ -97,6 +98,7 @@ module:
   pathauto: 1
   content_translation: 10
   views: 10
+  view_unpublished: 0
   paragraphs: 11
   minimal: 1000
   eu_cookie_compliance: 1001
