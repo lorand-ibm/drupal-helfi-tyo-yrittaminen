@@ -1,4 +1,4 @@
-uuid: e240ebc3-9f7e-492f-87df-c0b4a4da1802
+uuid: 08ca83d3-81d0-4492-ae12-e40021e66190
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,7 @@ dependencies:
     - field.field.node.announcement.field_announcement_all_pages
     - field.field.node.announcement.field_announcement_content_pages
     - field.field.node.announcement.field_announcement_link
-    - field.field.node.announcement.field_announcement_service_pages
     - field.field.node.announcement.field_announcement_type
-    - field.field.node.announcement.field_announcement_unit_pages
     - node.type.announcement
   module:
     - hdbt_admin_editorial
@@ -19,7 +17,7 @@ dependencies:
     - select2
     - text
 _core:
-  default_config_hash: 3ZB5EfLIfBjGMLdV-iwrrnqbcJ6VVLq5bv7jCaZT0Dg
+  default_config_hash: HPA9hsgCT6I8QZ_sIbXDzoHM5SmMDj7Pz4bli2Ao5AE
 id: node.announcement.default
 targetEntityType: node
 bundle: announcement
@@ -66,32 +64,12 @@ content:
     third_party_settings: {  }
     type: link_default
     region: content
-  field_announcement_service_pages:
-    weight: 14
-    settings:
-      width: 100%
-      autocomplete: true
-      match_operator: CONTAINS
-      match_limit: 20
-    third_party_settings: {  }
-    type: select2_entity_reference
-    region: content
   field_announcement_type:
     weight: 10
     settings:
       width: 100%
     third_party_settings: {  }
     type: select2
-    region: content
-  field_announcement_unit_pages:
-    weight: 13
-    settings:
-      width: 100%
-      autocomplete: true
-      match_operator: CONTAINS
-      match_limit: 20
-    third_party_settings: {  }
-    type: select2_entity_reference
     region: content
   langcode:
     type: language_select
