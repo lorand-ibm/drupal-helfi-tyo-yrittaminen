@@ -51,11 +51,12 @@ if (isset($_SERVER['WODBY_APP_NAME'])) {
 $config['openid_connect.client.tunnistamo']['settings']['client_id'] = getenv('TUNNISTAMO_CLIENT_ID');
 $config['openid_connect.client.tunnistamo']['settings']['client_secret'] = getenv('TUNNISTAMO_CLIENT_SECRET');
 
-// Get environment variables & set them as configuration values.
-if (getenv('SITEIMPROVE_API_USERNAME') && getenv('SITEIMPROVE_API_KEY')) {
-  $config['siteimprove.settings']['api_username'] = getenv('SITEIMPROVE_API_USERNAME');
-  $config['siteimprove.settings']['api_key'] = getenv('SITEIMPROVE_API_KEY');
-}
+$config['siteimprove.settings']['prepublish_enabled'] = TRUE;
+$config['siteimprove.settings']['api_username'] = getenv('SITEIMPROVE_API_USERNAME');
+$config['siteimprove.settings']['api_key'] = getenv('SITEIMPROVE_API_KEY');
+
+$settings['matomo_site_id'] = getenv('MATOMO_SITE_ID');
+$settings['siteimprove_id'] = getenv('SITEIMPROVE_ID');
 
 // Drupal route(s).
 $routes = (getenv('DRUPAL_ROUTES')) ? explode(',', getenv('DRUPAL_ROUTES')) : [];
@@ -169,4 +170,11 @@ if ($varnish_purge_key = getenv('VARNISH_PURGE_KEY')) {
     'field' => 'X-VC-Purge-Key',
     'value' => $varnish_purge_key,
   ];
+}
+
+if ($stage_file_proxy_origin = getenv('STAGE_FILE_PROXY_ORIGIN')) {
+  $config['stage_file_proxy.settings']['origin'] = $stage_file_proxy_origin;
+  $config['stage_file_proxy.settings']['origin_dir'] = 'test';
+  $config['stage_file_proxy.settings']['hotlink'] = FALSE;
+  $config['stage_file_proxy.settings']['use_imagecache_root'] = FALSE;
 }
