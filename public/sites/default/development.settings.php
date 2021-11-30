@@ -2,8 +2,8 @@
 
 $config['helfi_proxy.settings']['asset_path'] = 'dev-elo-assets';
 $config['helfi_proxy.settings']['prefixes'] = [
-  'en' => 'dev-elo-en',
-  'fi' => 'dev-elo-fi',
-  'sv' => 'dev-elo-sv',
-  'ru' => 'dev-elo-ru',
+  'en' => 'dev-work-and-entrepreneurship',
+  'fi' => 'dev-tyo-ja-yrittaminen',
+  'sv' => 'dev-arbete-och-foretagande',
+  'ru' => 'dev-work-and-entrepreneurship',
 ];
