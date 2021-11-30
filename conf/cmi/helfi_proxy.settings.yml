@@ -1,6 +1,6 @@
 asset_path: elo-assets
 prefixes:
-  en: elo
-  fi: elo
-  sv: elo
-  ru: elo
+  en: work-and-entrepreneurship
+  fi: tyo-ja-yrittaminen
+  sv: arbete-och-foretagande
+  ru: work-and-entrepreneurship
