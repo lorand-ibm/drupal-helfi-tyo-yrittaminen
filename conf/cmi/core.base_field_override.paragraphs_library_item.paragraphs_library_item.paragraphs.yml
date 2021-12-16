@@ -12,6 +12,7 @@ dependencies:
     - paragraphs.paragraphs_type.image
     - paragraphs.paragraphs_type.liftup_with_image
     - paragraphs.paragraphs_type.list_of_links
+    - paragraphs.paragraphs_type.map
     - paragraphs.paragraphs_type.sidebar_text
     - paragraphs.paragraphs_type.text
   module:
@@ -32,7 +33,6 @@ default_value_callback: ''
 settings:
   handler: default
   handler_settings:
-    negate: '0'
     target_bundles:
       accordion: accordion
       banner: banner
@@ -46,6 +46,7 @@ settings:
       sidebar_text: sidebar_text
       text: text
       map: map
+    negate: '0'
     target_bundles_drag_drop:
       accordion:
         enabled: '1'
@@ -89,6 +90,9 @@ settings:
       list_of_links_item:
         weight: '34'
         enabled: 0
+      map:
+        weight: '35'
+        enabled: 0
       remote_video:
         weight: '36'
         enabled: 0
@@ -98,7 +102,4 @@ settings:
       text:
         enabled: '1'
         weight: '39'
-      map:
-        enabled: '1'
-        weight: '32'
 field_type: entity_reference_revisions
