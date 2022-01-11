@@ -1,6 +1,6 @@
 asset_path: elo-assets
 prefixes:
-  en: elo
-  fi: elo
-  sv: elo
-  ru: elo
+  en: business-and-work
+  fi: yritykset-ja-tyo
+  sv: foretag-och-arbete
+  ru: business-and-work
