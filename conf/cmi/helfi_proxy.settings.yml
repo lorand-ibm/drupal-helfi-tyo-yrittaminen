@@ -1,3 +1,5 @@
+langcode: en
+front_page_title: 'Business and Work'
 asset_path: elo-assets
 prefixes:
   en: business-and-work
