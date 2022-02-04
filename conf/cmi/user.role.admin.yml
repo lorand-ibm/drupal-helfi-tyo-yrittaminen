@@ -146,3 +146,6 @@ permissions:
   - 'view scheduled content'
   - 'view the administration theme'
   - 'view unpublished paragraphs'
+  - 'assign admin role'
+  - 'assign content_producer role'
+  - 'assign read_only role'
