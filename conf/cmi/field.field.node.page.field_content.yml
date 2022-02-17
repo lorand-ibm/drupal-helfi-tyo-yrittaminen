@@ -46,6 +46,7 @@ settings:
       from_library: from_library
       remote_video: remote_video
       map: map
+      chart: chart
     negate: 0
     target_bundles_drag_drop:
       accordion:
@@ -56,6 +57,9 @@ settings:
         enabled: false
       banner:
         weight: -16
+        enabled: true
+      chart:
+        weight: 25
         enabled: true
       columns:
         weight: -26
