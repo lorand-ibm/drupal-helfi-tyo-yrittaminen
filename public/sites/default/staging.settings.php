@@ -1,5 +1,6 @@
 <?php
 
+$config['helfi_proxy.settings']['tunnistamo_return_url'] = '/fi/staging-yritykset-ja-tyo/openid-connect/tunnistamo';
 $config['helfi_proxy.settings']['asset_path'] = 'staging-elo-assets';
 $config['helfi_proxy.settings']['prefixes'] = [
   'en' => 'staging-business-and-work',
