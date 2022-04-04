@@ -1,0 +1,12 @@
+uuid: c96068be-56ab-4a4a-807c-a164528f330d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 0Ng7ejlufHeGq2qBB2CGx6ppTc7Jvp17xuSTYck4Kg4
+id: contact_card
+label: 'Contact card'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

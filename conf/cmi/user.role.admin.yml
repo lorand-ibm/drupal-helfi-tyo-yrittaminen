@@ -34,6 +34,7 @@ dependencies:
     - toolbar
     - view_unpublished
     - content_lock
+    - views_bulk_edit
 _core:
   default_config_hash: 7RTyCpgMKCMdwkxYrpzYOCq7DQDHO0SrTjB7xwFaIyI
 id: admin
@@ -173,3 +174,4 @@ permissions:
   - 'edit any helfi_chart media'
   - 'edit own helfi_chart media'
   - 'break content lock'
+  - 'use views bulk edit'
